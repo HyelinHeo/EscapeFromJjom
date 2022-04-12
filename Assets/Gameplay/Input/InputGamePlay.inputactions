@@ -1,0 +1,45 @@
+{
+    "name": "InputGamePlay",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "44bc0641-44b9-41dd-b3a8-2ee1cfce2a4a",
+            "actions": [
+                {
+                    "name": "Exit",
+                    "type": "Button",
+                    "id": "44aead3a-30b0-46d5-b427-f97d5a43408d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "628b138d-b3ed-4163-bb96-51fb409bc03d",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Exit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
